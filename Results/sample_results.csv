@@ -1,0 +1,37 @@
+Experiment,Case,Metric,Failure_Probability,Concurrent_Clients,Connections,Useful_Bytes,Total_Bytes,Redundant_Bytes,Elapsed_Sec,Throughput_MBs,Overhead_Pct
+Part I,Single-threaded,throughput,,1,,,,,,105,
+Part I,Single-threaded,throughput,,2,,,,,,112,
+Part I,Single-threaded,throughput,,3,,,,,,109,
+Part I,Multi-threaded,throughput,,1,,,,,,106,
+Part I,Multi-threaded,throughput,,2,,,,,,145,
+Part I,Multi-threaded,throughput,,3,,,,,,171,
+Part II throughput,Case 1 — restart from beginning,useful_throughput,0.00,,,,,,,82.5,
+Part II throughput,Case 1 — restart from beginning,useful_throughput,0.02,,,,,,,2.0,
+Part II throughput,Case 1 — restart from beginning,useful_throughput,0.05,,,,,,,0.2,
+Part II throughput,Case 1 — restart from beginning,useful_throughput,0.08,,,,,,,0.0,
+Part II throughput,Case 1 — restart from beginning,useful_throughput,0.10,,,,,,,0.0,
+Part II throughput,Case 2 — checkpoint resume,useful_throughput,0.00,,,,,,,86.0,
+Part II throughput,Case 2 — checkpoint resume,useful_throughput,0.02,,,,,,,13.0,
+Part II throughput,Case 2 — checkpoint resume,useful_throughput,0.05,,,,,,,6.0,
+Part II throughput,Case 2 — checkpoint resume,useful_throughput,0.08,,,,,,,3.5,
+Part II throughput,Case 2 — checkpoint resume,useful_throughput,0.10,,,,,,,2.5,
+Part II throughput,Case 2 Enhanced — parallel streams,useful_throughput,0.00,,,,,,,19.8,
+Part II throughput,Case 2 Enhanced — parallel streams,useful_throughput,0.02,,,,,,,14.5,
+Part II throughput,Case 2 Enhanced — parallel streams,useful_throughput,0.05,,,,,,,9.6,
+Part II throughput,Case 2 Enhanced — parallel streams,useful_throughput,0.08,,,,,,,7.25,
+Part II throughput,Case 2 Enhanced — parallel streams,useful_throughput,0.10,,,,,,,5.16,
+Part II overhead,Case 1 — restart from beginning,retransmission_overhead,0.00,,,,,,,,0
+Part II overhead,Case 1 — restart from beginning,retransmission_overhead,0.02,,,,,,,,100
+Part II overhead,Case 1 — restart from beginning,retransmission_overhead,0.05,,,,,,,,400
+Part II overhead,Case 1 — restart from beginning,retransmission_overhead,0.08,,,,,,,,1000
+Part II overhead,Case 1 — restart from beginning,retransmission_overhead,0.10,,,,,,,,1600
+Part II overhead,Case 2 — checkpoint resume,retransmission_overhead,0.00,,,,,,,,0
+Part II overhead,Case 2 — checkpoint resume,retransmission_overhead,0.02,,,,,,,,0
+Part II overhead,Case 2 — checkpoint resume,retransmission_overhead,0.05,,,,,,,,0
+Part II overhead,Case 2 — checkpoint resume,retransmission_overhead,0.08,,,,,,,,0
+Part II overhead,Case 2 — checkpoint resume,retransmission_overhead,0.10,,,,,,,,0
+Part II overhead,Case 2 Enhanced — parallel streams,retransmission_overhead,0.00,,,,,,,,0
+Part II overhead,Case 2 Enhanced — parallel streams,retransmission_overhead,0.02,,,,,,,,0
+Part II overhead,Case 2 Enhanced — parallel streams,retransmission_overhead,0.05,,,,,,,,0
+Part II overhead,Case 2 Enhanced — parallel streams,retransmission_overhead,0.08,,,,,,,,0
+Part II overhead,Case 2 Enhanced — parallel streams,retransmission_overhead,0.10,,,,,,,,0
